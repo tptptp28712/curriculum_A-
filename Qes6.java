@@ -2,7 +2,7 @@
 package curriculum_B;
 import java.util.Scanner;
 import java.util.Random;
-class Main{
+class Qes6{
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
 Random rand = new Random();
