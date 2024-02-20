@@ -21,3 +21,4 @@ public class  Qes5{
 			System.out.println();
 		}
 	}
+}
