@@ -1,4 +1,4 @@
-# curriculum_B
+
 package curriculum_B;
 mport java.util.Random;
 import java.util.Scanner;
