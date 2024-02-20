@@ -40,11 +40,11 @@ System.out.println(i + 1 + "人目の平均点は"+num3[i] / 4+"点です。");
 //各教科と全体の平均出力    
 }
 System.out.println("");
-System.out.print("英語の平均点は" + String.format("%.2f",(double)sum / (double)sum2)+"点です。");
-System.out.print("数学の平均点は" + String.format("%.2f",(double)su / (double)sum2)+"点です。");
-System.out.print("理科の平均点は" + String.format("%.2f",(double)rika / (double)sum2)+"点です。");
-System.out.print("社会の平均点は" + String.format("%.2f",(double)syakai / (double)sum2)+"点です。");
-System.out.print("全体の平均点は" + String.format("%.2f",(double)gou / ((double)sum2*4))+"点です。");
+System.out.println("英語の平均点は" + String.format("%.2f",(double)sum / (double)sum2)+"点です。");
+System.out.println("数学の平均点は" + String.format("%.2f",(double)su / (double)sum2)+"点です。");
+System.out.println("理科の平均点は" + String.format("%.2f",(double)rika / (double)sum2)+"点です。");
+System.out.println("社会の平均点は" + String.format("%.2f",(double)syakai / (double)sum2)+"点です。");
+System.out.println("全体の平均点は" + String.format("%.2f",(double)gou / ((double)sum2*4))+"点です。");
 
 }
 }
