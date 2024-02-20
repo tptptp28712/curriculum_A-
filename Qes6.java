@@ -1,4 +1,5 @@
-
+# curriculum_B
+package curriculum_B;
 import java.util.Scanner;
 import java.util.Random;
 class Main{
