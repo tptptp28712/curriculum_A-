@@ -1,2 +1,2 @@
-# curriculum_A-
-package curriculum_A;
+# curriculum_B
+package curriculum_B;
