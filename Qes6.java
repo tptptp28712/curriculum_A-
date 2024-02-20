@@ -56,7 +56,7 @@ switch(tokens[i]){
                 System.out.println("テレビ"+"の残り台数は"+num+"です");
             num = rand.nextInt(12);
             }
-        }
+        }// 前後にテレビがあるか判定
          for ( b = 0 ; b < tokens.length; b++){
              switch(tokens[b]){
                 case "テレビ":
