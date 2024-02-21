@@ -15,6 +15,7 @@ Random rand = new Random();
     for (i = 0 ; i < tokens.length; i++){
          num = rand.nextInt(12);
 switch(tokens[i]){
+      // 指定の家電だと出力
     case "パソコン":
         tt ="あ";
         break;
@@ -68,15 +69,17 @@ switch(tokens[i]){
         }
         break;
         default:
+      // 指定以外の家電の処理
         tt ="い";
             System.out.println(tokens[i]+"は指定の商品ではありません");
          }
-         // テレビ、ディスプレイ片方のみまたはそれ以外だと出力
+         // テレビ、ディスプレイ片方のみまたは対象の家電だと出力
          switch(tt){
              case "い":
                  tt = "あ";
                 break;
  default:
+            //指定の家電だと出力
         System.out.println(tokens[i]+"の残り台数は"+num+"です");
         tt = "あ";
     }
