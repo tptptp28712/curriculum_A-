@@ -3,7 +3,7 @@ package curriculum_B;
 import java.util.Scanner;
 import java.util.Random;
 class Qes6{
-  public static void main(String[] args){
+   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
 Random rand = new Random();
    int num;
@@ -15,14 +15,23 @@ Random rand = new Random();
     for (i = 0 ; i < tokens.length; i++){
          num = rand.nextInt(12);
 switch(tokens[i]){
+    case "パソコン":
+        tt ="あ";
+        break;
+    case "冷蔵庫":
+        tt ="あ";
+        break;
+    case "洗濯機":
+        tt ="あ";
+        break;
+    case "加湿器":
+        tt ="あ";
+        break;
+    case "扇風機":
+        tt ="あ";
+        break;
     case "テレビ":
-        // テレビの前にディスプレイがないか確認
-        for ( b = i ; b < 0; b--){
-            switch(tokens[b]){
-                case "ディスプレイ":
-                break;
-            }
-        }
+        tt ="あ";
         // 後にディスプレイがあると並んで出力
         for ( b = i ; b <tokens.length ; b++){
             switch(tokens[b]){
@@ -41,12 +50,6 @@ switch(tokens[i]){
         }
             break;
   case "ディスプレイ":
-      // ディスプレイの前にテレビがないか確認
-          for ( b = i - 1; b < 0; b--){
-            switch(tokens[b]){
-                case "テレビ":
-            }
-        }
         // 後にテレビがあると並んで出力
         for ( b = i + 1; b <tokens.length ; b++){
             switch(tokens[b]){
@@ -63,6 +66,10 @@ switch(tokens[i]){
                      tt ="い";
          }
         }
+        break;
+        default:
+        tt ="い";
+            System.out.println(tokens[i]+"は指定の商品ではありません");
          }
          // テレビ、ディスプレイ片方のみまたはそれ以外だと出力
          switch(tt){
@@ -76,5 +83,6 @@ switch(tokens[i]){
     }
 }
 }
+
 
 
