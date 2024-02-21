@@ -1,7 +1,7 @@
 package curriculum_B;
 import java.util.Scanner;
 import java.util.Random;
-public class Main {
+public class Qes7 {
 public static void main(String aregs[]) {
 Scanner scanner = new Scanner(System.in);
 int sum = 0;
@@ -45,6 +45,6 @@ System.out.println("数学の平均点は" + String.format("%.2f",(double)su / (
 System.out.println("理科の平均点は" + String.format("%.2f",(double)rika / (double)sum2)+"点です。");
 System.out.println("社会の平均点は" + String.format("%.2f",(double)syakai / (double)sum2)+"点です。");
 System.out.println("全体の平均点は" + String.format("%.2f",(double)gou / ((double)sum2*4))+"点です。");
-
+scanner.close();
 }
 }
