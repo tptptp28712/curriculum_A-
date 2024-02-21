@@ -15,7 +15,7 @@ Random rand = new Random();
     for (i = 0 ; i < tokens.length; i++){
          num = rand.nextInt(12);
 switch(tokens[i]){
-      // 指定の家電だと出力
+      // 指定の家電だとttにあを代入
     case "パソコン":
         tt ="あ";
         break;
@@ -79,7 +79,7 @@ switch(tokens[i]){
                  tt = "あ";
                 break;
  default:
-            //指定の家電だと出力
+            //指定の家電だと出力（ttに、い以外がが代入されていると出力）
         System.out.println(tokens[i]+"の残り台数は"+num+"です");
         tt = "あ";
     }
